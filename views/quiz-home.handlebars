@@ -1,0 +1,36 @@
+<section>
+    <h1 class= "title is-1 has-text-centered">Choose a Premade Quiz</h1>
+    <div id="quiz-list" class="is-flex is-justify-content-space-evenly is-flex-wrap-wrap pt-3 pb-3">
+
+    </div>
+</section>
+<!--quiz builder choosing questions-->
+<section>
+    <h4 class = "title is-4 mt-6 mb-3">Sick of random? Want to personalise a quiz just for you? </h4>
+    <h5 class="title is-6">Build own quiz by category or creator {{category.category_name}}</h5>
+    <form>
+        <div class="field has-addons">
+            <div class="control is-expanded">
+                <div class="select is-fullwidth">
+                <select name="category" id="category-choice">
+                    {{#each categories as |category|}}
+                    <option value="{{category_id}}">{{category_name}}</option>
+                    {{/each}}
+                </select>
+                </div>
+            </div>
+            <div class="control">
+                <button id="submit-category" class="button"  style="background-color: #D40000; color: #FFDF00">Choose</button>
+            </div>
+        </div>
+    </form>
+    <p id="message-element"></p>
+    <div></div>
+
+</section>
+
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="/js_1/quizhome.js"></script>
+
+
+
