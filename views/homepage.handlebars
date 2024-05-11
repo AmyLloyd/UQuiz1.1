@@ -1,0 +1,28 @@
+<main style="background-color:#FFDF00; height: 100vh; display:flex">
+    <div style="width:45%; display:inline-block; padding-top: 50px; font-family: 'Space Grotesk';">
+     
+      <h1 style="font-weight: 500; font-size: 400%; padding-bottom: 10px; padding-left: 20px">
+    Welcome to UQuiz, <a style="font-weight:200;">{{req.session.username}}</a>!
+   </h1>
+   
+   <h2 style = "font-family: 'Space Grotesk'; font-size: 40px; padding-bottom: 10px; padding-left: 20px">
+    Submit your questions, test your mind, have fun with your friends and family!</h2>
+    
+    <p class="control" style="padding-left: 40px; padding-top: 20px;">
+      <a href="/account">
+    <button class="button is-success" type="submit" id="to-account" style="font-size: 150%; background-color: #D40000; color: #FFDF00; width: 70%;">
+      go to your account... 
+      </button>
+      </a>
+  </p>
+   
+    </div>
+    <div class = "hero-image" style="width:55%; height: 80vh; display:inline-block; margin: 10px; padding-top: 50px">
+        <img src="funquiz.jpg">
+
+    </div>
+
+</main>
+
+<script src="/controllers/homeRoutes.js"></script>
+

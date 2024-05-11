@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <title>UQuiz</title>
+    
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/quiz_style.css">
+    <link rel="stylesheet" href="/css/aos.css">
+    <link rel="stylesheet" href="/node_modules/aos/dist/aos.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+     <link
+      href="https://fonts.googleapis.com/css2?family=Space Grotesk&family=Preahvihear:wght@700&display=swap"
+      rel="stylesheet"
+    />
+
+</head>
+
+<body style="background-color:#FFDF00">
+    <header>
+    <nav style="background-color:#abfaf6" class="navbar" role="navigation" aria-label="main navigation">
+      <!--<div class="aos-item" data-aos="zoom-in">-->
+        <img src="UQuiz Logo.png" width="112" height="28">  
+       <!--</div>-->
+    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+     
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+    </a>
+         </div>
+        <div id="navbarBasicExample" class="navbar-menu">
+         <div class="navbar-start">
+          <button class="navbar-item" id="home">Home</button>
+          <button class="navbar-item" id="play">Play UQuiz</button>
+          <button class="navbar-item" id="quiz-select">Choose Quiz</button>
+          <button class="navbar-item" id="account">Submit Questions</button>
+        <div class="navbar-end">
+         <div class="navbar-item">
+
+{{#if (eq loggedIn true)}}
+  <div class="buttons">
+    <button id="logout-btn" class="button is-primary">
+      <strong>Log Out</strong>
+    </button>
+  </div>
+{{else}}
+  <div class="buttons">
+    <a href="/login" id="signup-link" class="button is-primary">
+      <strong>Sign up</strong>
+    </a>
+    <a href="/login" id="login-link" class="button is-light">
+      Log in
+    </a>
+  </div>
+{{/if}}
+
+          </div>
+        </div> 
+         </div>
+        
+    </nav>
+    </header>
+
+    <main>
+
+        {{{body}}}
+
+    </main>
+    <footer>
+
+    </footer>
+    {{#if (eq loggedIn true)}}
+  <script src="/js_1/logout.js"></script>
+  {{/if}}
+
+<script src="/js_1/homepage.js"></script>
+<script src="/node_modules/aos/dist/aos.js"></script>
+<script>
+      //AOS.init({
+        //easing: 'ease-in-sine'
+      //});
+    </script>
+
+</body>
+
+</html>
+

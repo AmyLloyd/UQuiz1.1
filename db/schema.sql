@@ -1,0 +1,2 @@
+DROP DATABASE IF EXISTS uquiz_db;
+CREATE DATABASE uquiz_db;

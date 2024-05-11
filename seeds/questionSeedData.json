@@ -1,0 +1,1037 @@
+[
+  {
+
+    "question_body": "What is the name of the trilogy directed by Peter Jackson, based on J.R.R. Tolkien's novels, that was released between 2001 and 2003?",
+    "answer": "The Lord of the Rings",
+    "choice_a":"Harry Potter",
+    "choice_b":"Star Wars",
+    "choice_c":"The Lord of the Rings",
+    "choice_d":"The Hunger Games",
+    "category_id": 1,
+    "created_by_user_id": 3
+   },
+  {
+
+    "question_body": "Who is Prime Minister of Australia in 2023?",
+    "answer": "Anthony Albanese",
+    "choice_a":"John Howard",
+    "choice_b":"Julia Gillard",
+    "choice_c":"Anthony Albanese",
+    "choice_d":"Malcolm Turnbull",
+    "category_id": 5,
+    "created_by_user_id": 2
+  },
+  {
+
+    "question_body": "What is the name of a cyclone that hit QLD in 2023?",
+    "answer": "Cyclone Jasper",
+    "choice_a":"Cyclone Jasper",
+    "choice_b":"Cyclone Tracey",
+    "choice_c":"Cyclone Barbara",
+    "choice_d":"Cyclone Paul",
+    "category_id": 2,
+    "created_by_user_id": 2
+  },
+  {
+    "question_body": "Keanu Reeves played the role of Neo in a highly influential sci-fi film released in 1999. What is the title of this movie?",
+    "answer": "The Matrix",
+    "choice_a":"Planet of the Apes",
+    "choice_b":"The Matrix",
+    "choice_c":"Cypher",
+    "choice_d":"Cyborg Soldier",
+    "category_id": 4,
+    "created_by_user_id": 1 
+  },
+  {
+    "question_body": "Christopher Nolan directed a 2010 science fiction film known for its intricate plot involving dreams within dreams. What is the title of this film?",
+    "answer": "Inception",
+    "choice_a":"Shutter Island",
+    "choice_b":"Time Crimes",
+    "choice_c":"Inception",
+    "choice_d":"Mr. Nobody",
+    "category_id": 4,
+    "created_by_user_id": 2 
+  },
+  {
+    "question_body": "Released in 1994, this animated film became a classic and is often considered one of the greatest animated movies of all time. What is the title of this Disney film?",
+    "answer": "The Lion King",
+    "choice_a":"Over the Hedge",
+    "choice_b":"Toy Story",
+    "choice_c":"Finding Nemo",
+    "choice_d":"The Lion King",
+    "category_id": 4,
+    "created_by_user_id": 2 
+  },
+  {
+    "question_body": "Who composed the famous symphony 'Symphony No. 9 in D minor, Op. 125,' commonly known as the 'Choral Symphony'?",
+    "answer": "Ludwig van Beethoven",
+    "choice_a": "Wolfgang Amadeus Mozart",
+    "choice_b": "Ludwig van Beethoven",
+    "choice_c": "Johann Sebastian Bach",
+    "choice_d": "Pyotr Ilyich Tchaikovsky",
+    "category_id": 6,
+    "created_by_user_id": 2
+},
+{
+    "question_body": "Which country music legend is known as the 'Man in Black'?",
+    "answer": "Johnny Cash",
+    "choice_a": "Willie Nelson",
+    "choice_b": "Hank Williams",
+    "choice_c": "Johnny Cash",
+    "choice_d": "George Strait",
+    "category_id": 6,
+    "created_by_user_id": 3
+},
+{
+    "question_body": "Who is often referred to as the 'King of Pop'?",
+    "answer": "Michael Jackson",
+    "choice_a": "Elvis Presley",
+    "choice_b": "Michael Jackson",
+    "choice_c": "Prince",
+    "choice_d": "Madonna",
+    "category_id": 6,
+    "created_by_user_id": 3
+},
+{
+    "question_body": "Which pop singer is known for hits like 'Hello' and 'Rolling in the Deep'?",
+    "answer": "Adele",
+    "choice_a": "Beyoncé",
+    "choice_b": "Taylor Swift",
+    "choice_c": "Adele",
+    "choice_d": "Ed Sheeran",
+    "category_id": 6,
+    "created_by_user_id": 4
+},
+{
+    "question_body": "What classical composer is famous for his 'Four Seasons' concertos?",
+    "answer": "Antonio Vivaldi",
+    "choice_a": "Johannes Brahms",
+    "choice_b": "Antonio Vivaldi",
+    "choice_c": "Ludwig van Beethoven",
+    "choice_d": "Franz Schubert",
+    "category_id": 6,
+    "created_by_user_id": 4
+},
+{
+    "question_body": "What is the capital city of Japan?",
+    "answer": "Tokyo",
+    "choice_a": "Seoul",
+    "choice_b": "Beijing",
+    "choice_c": "Bangkok",
+    "choice_d": "Tokyo",
+    "category_id": 8,
+    "created_by_user_id": 3
+},
+{
+    "question_body": "Which river is the longest in the world?",
+    "answer": "Nile",
+    "choice_a": "Amazon",
+    "choice_b": "Yangtze",
+    "choice_c": "Mississippi",
+    "choice_d": "Nile",
+    "category_id": 8,
+    "created_by_user_id": 3
+},
+{
+    "question_body": "In which continent is the Sahara Desert located?",
+    "answer": "Africa",
+    "choice_a": "South America",
+    "choice_b": "Australia",
+    "choice_c": "Africa",
+    "choice_d": "Europe",
+    "category_id": 8,
+    "created_by_user_id": 2
+},
+{
+    "question_body": "What is the highest mountain in the world?",
+    "answer": "Mount Everest",
+    "choice_a": "K2",
+    "choice_b": "Mount Kilimanjaro",
+    "choice_c": "Mount McKinley",
+    "choice_d": "Mount Everest",
+    "category_id": 8,
+    "created_by_user_id": 3
+},
+{
+    "question_body": "Which country is known as the Land of the Rising Sun?",
+    "answer": "Japan",
+    "choice_a": "China",
+    "choice_b": "Vietnam",
+    "choice_c": "Japan",
+    "choice_d": "South Korea",
+    "category_id": 8,
+    "created_by_user_id": 2
+},
+{
+  "question_body": "Who was the first President of the United States?",
+  "answer": "George Washington",
+  "choice_a": "Thomas Jefferson",
+  "choice_b": "John Adams",
+  "choice_c": "Alexander Hamilton",
+  "choice_d": "George Washington",
+  "category_id": 7,
+  "created_by_user_id": 1
+},
+{
+  "question_body": "In which year did World War II end?",
+  "answer": "1945",
+  "choice_a": "1939",
+  "choice_b": "1941",
+  "choice_c": "1945",
+  "choice_d": "1950",
+  "category_id": 7,
+  "created_by_user_id": 1
+},
+{
+  "question_body": "Who was the Egyptian queen known for her relationship with Julius Caesar and Mark Antony?",
+  "answer": "Cleopatra",
+  "choice_a": "Nefertiti",
+  "choice_b": "Hatshepsut",
+  "choice_c": "Cleopatra",
+  "choice_d": "Isis",
+  "category_id": 7,
+  "created_by_user_id": 2
+},
+{
+  "question_body": "What event marked the beginning of the French Revolution?",
+  "answer": "Storming of the Bastille",
+  "choice_a": "Execution of Louis XVI",
+  "choice_b": "Reign of Terror",
+  "choice_c": "Storming of the Bastille",
+  "choice_d": "Tennis Court Oath",
+  "category_id": 7,
+  "created_by_user_id": 1
+},
+{
+  "question_body": "Who was the leader of the Soviet Union during the Cuban Missile Crisis?",
+  "answer": "Nikita Khrushchev",
+  "choice_a": "Joseph Stalin",
+  "choice_b": "Leon Trotsky",
+  "choice_c": "Mikhail Gorbachev",
+  "choice_d": "Nikita Khrushchev",
+  "category_id": 7,
+  "created_by_user_id": 1
+},
+{
+  "question_body": " Which actor played the role of Iron Man in the Marvel Cinematic Universe? ",
+  "answer": " Robert Downey Jr.",
+  "choice_a":" Robert Downey Jr. ",
+  "choice_b":" Chris Evans ",
+  "choice_c":" Chris Hemsworth ",
+  "choice_d":" Mark Ruffalo ",
+  "category_id": 1,
+  "created_by_user_id": 1
+  },
+  {
+  "question_body": " Who is the lead vocalist of the band Coldplay? ",
+  "answer": " Chris Martin ",
+  "choice_a":" Chris Martin ",
+  "choice_b":" Adam Levine ",
+  "choice_c":" Justin Timberlake ",
+  "choice_d":" Brandon Flowers ",
+  "category_id": 1,
+  "created_by_user_id": 1
+  },
+  {
+  "question_body": " Which famous director directed the movie 'The Dark Knight'? ",
+  "answer": " Christopher Nolan ",
+  "choice_a":" Martin Scorsese ",
+  "choice_b":" Quentin Tarantino ",
+  "choice_c":" Christopher Nolan ",
+  "choice_d":" Steven Spielberg ",
+  "category_id": 4,
+  "created_by_user_id": 4
+  },
+  
+  {
+  "question_body": " Which TV show features the character, Walter White? ",
+  "answer": " Breaking Bad ",
+  "choice_a":" Breaking Bad ",
+  "choice_b":" The Walking Dead ",
+  "choice_c":" Game of Thrones ",
+  "choice_d":" Friends ",
+  "category_id": 1,
+  "created_by_user_id": 1
+  },
+  
+  {
+  "question_body": " Who played the character Hermione Granger in the Harry Potter film series? ",
+  "answer": " Emma Watson ",
+  "choice_a":" Emma Watson ",
+  "choice_b":" Emma Stone ",
+  "choice_c":" Jennifer Lawrence ",
+  "choice_d":" Kristen Stewart ",
+  "category_id": 1,
+  "created_by_user_id": 1
+  },
+  {
+  "question_body": " What is the highest-grossing film of all time (as of 2021)? ",
+  "answer": " Avengers: Endgame ",
+  "choice_a":" Avatar ",
+  "choice_b":" Avengers: Endgame ",
+  "choice_c":" Titanic ",
+  "choice_d":" Star Wars: The Force Awakens ",
+  "category_id": 1,
+  "created_by_user_id": 1
+  },
+  {
+  "question_body": " Who is the author of the 'Harry Potter' book series? ",
+  "answer": " J.K. Rowling ",
+  "choice_a":" J.R.R. Tolkien ",
+  "choice_b":" J.K. Rowling ",
+  "choice_c":" George R.R. Martin ",
+  "choice_d":" Suzanne Collins ",
+  "category_id": 1,
+  "created_by_user_id":3
+  },
+  
+  {
+  "question_body": " Which actor portrays the character James Bond in the most recent Bond films? ",
+  "answer": " Daniel Craig ",
+  "choice_a":" Daniel Craig ",
+  "choice_b":" Pierce Brosnan ",
+  "choice_c":" Sean Connery ",
+  "choice_d":" Roger Moore ",
+  "category_id": 1,
+  "created_by_user_id":3
+  },
+  {
+  "question_body": " Which band recorded the album 'Sgt. Pepper's Lonely Hearts Club Band'? ",
+  "answer": " The Beatles ",
+  "choice_a":" The Rolling Stones ",
+  "choice_b":" The Beatles ",
+  
+  "choice_c":" Led Zeppelin ",
+  "choice_d":" Queen ",
+  "category_id": 6,
+  "created_by_user_id":3
+  },
+  {
+  "question_body": " Who won the Academy Award for Best Actor in 2020? ",
+  "answer": " Anthony Hopkins ",
+  "choice_a":" Joaquin Phoenix ",
+  "choice_b":" Leonardo DiCaprio ",
+  "choice_c":" Brad Pitt ",
+  "choice_d":" Anthony Hopkins ",
+  "category_id": 4,
+  "created_by_user_id":3
+  },
+  {
+  "question_body": " Which country recently became the first in the world to approve a COVID-19 vaccine? ",
+  "answer": " United Kingdom ",
+  "choice_a":" United States ",
+  "choice_b":" China ",
+  "choice_c":" United Kingdom ",
+  "choice_d":" Russia ",
+  "category_id": 2,
+  "created_by_user_id":3
+  },
+  {
+  "question_body": " Who won the 2020 US Presidential Election? ",
+  "answer": " Joe Biden ",
+  "choice_a":" Donald Trump ",
+  "choice_b":" Joe Biden ",
+  "choice_c":" Kamala Harris ",
+  "choice_d":" Bernie Sanders ",
+  "category_id": 2,
+  "created_by_user_id":3
+  },
+  {
+  "question_body": " Which country recently experienced a massive explosion in its capital city, Beirut? ",
+  "answer": " Lebanon ",
+  "choice_a":" Lebanon ",
+  "choice_b":" Syria ",
+  "choice_c":" Iraq ",
+  "choice_d":" Iran ",
+  "category_id": 2,
+  "created_by_user_id":4
+  },
+  {
+  
+  "question_body": " Which tech company became the first to reach a market capitalization of $2 trillion? ",
+  "answer": " Apple ",
+  "choice_a":" Amazon ",
+  "choice_b":" Google ",
+  "choice_c":" Apple ",
+  "choice_d":" Microsoft ",
+  "category_id": 2,
+  "created_by_user_id":4
+  },
+  {
+  "question_body": "Which country signed a historic peace agreement with Israel, known as the Abraham accords?",
+  "answer": " United Arab Emirates ",
+  "choice_a":" Saudi Arabia ",
+  "choice_b":" Qatar ",
+  "choice_c":" Iran",
+  "choice_d":" United Arab Emirates ",
+  "category_id": 5,
+  "created_by_user_id":4
+  },
+  {
+  "question_body": "Which city was the host of the 2020 Summer Olympics, which were postponed to 2021 due to the Covid-19 pandemic? ",
+  "answer": "Tokyo",
+  "choice_a":" Tokyo ",
+  "choice_b":" Rio de Janeiro ",
+  "choice_c":") London ",
+  "choice_d":" Beijing ",
+  "category_id":2 ,
+  "created_by_user_id": 3
+  },
+  {
+  "question_body": "Which global organisation is leading the efforts to distribute COVID-19 vaccines worldwide?",
+  "answer": " World Health Organization (WHO) ",
+  "choice_a":" United Nations (UN) ",
+  "choice_b":" World Bank ",
+  "choice_c":" World Health Organization (WHO) ",
+  "choice_d":" International Monetary Fund (IMF) ",
+  "category_id": 2,
+  "created_by_user_id":4
+  },
+  {
+  "question_body": "Which country recently passed a controversial national security law affecting its citizens' autonomy?",
+  "answer": " Hong Kong ",
+  
+  "choice_a":" Taiwan ",
+  "choice_b":" Hong Kong ",
+  "choice_c":" Singapore ",
+  "choice_d":" South Korea ",
+  "category_id": 2,
+  "created_by_user_id":5
+  },
+  {
+  "question_body": "Which airline became the first to operate a fully vaccinated flight amid the Covid-19 pandemic?",
+  "answer": " Qantas ",
+  "choice_a":" Emirates ",
+  "choice_b":" Qantas ",
+  "choice_c":" British Airways ",
+  "choice_d":" Singapore Airlines ",
+  "category_id": 2,
+  "created_by_user_id":5
+  },
+  {
+  "question_body": "Which country experienced widespread protest against police brutality and racial inequality, following the killing of George Floyd? ",
+  "answer": " United States ",
+  "choice_a":" United Kingdom ",
+  "choice_b":" France ",
+  "choice_c":" Australia ",
+  "choice_d":" United States ",
+  "category_id": 2,
+  "created_by_user_id":5
+  },
+  {
+  "question_body": " Which country won the FIFA World Cup in 2018? ",
+  "answer": " France ",
+  "choice_a":" Brazil ",
+  "choice_b":" Germany ",
+  "choice_c":" France ",
+  "choice_d":" Argentina ",
+  "category_id": 3,
+  "created_by_user_id":5
+  },
+  {
+  "question_body": " In which sport is the term 'birdie' used? ",
+  "answer": " Golf ",
+  "choice_a":" Tennis ",
+  "choice_b":" Golf ",
+  "choice_c":" Cricket ",
+  "choice_d":" Badminton ",
+  "category_id":3 ,
+  
+  "created_by_user_id":5
+  },
+  {
+  "question_body": " Who holds the record for the most home runs in a single MLB season? ",
+  "answer": " Barry Bonds ",
+  "choice_a":" Hank Aaron ",
+  "choice_b":" Babe Ruth ",
+  "choice_c":" Barry Bonds ",
+  "choice_d":" Sammy Sosa ",
+  "category_id":3,
+  "created_by_user_id":5
+  },
+  {
+  "question_body": " Which country has won the most Olympic gold medals in history? ",
+  "answer": " United States ",
+  "choice_a":" China ",
+  "choice_b":" United States ",
+  "choice_c":" Russia ",
+  "choice_d":" Germany ",
+  "category_id":3 ,
+  "created_by_user_id":4
+  },
+  {
+  "question_body": " Which tennis player has won the most Grand Slam titles in history? ",
+  "answer": " Roger Federer ",
+  "choice_a":" Rafael Nadal ",
+  "choice_b":" Novak Djokovic ",
+  "choice_c":" Serena Williams ",
+  "choice_d":" Roger Federer ",
+  "category_id": 3,
+  "created_by_user_id":4
+  },
+  {
+  "question_body": " What is the highest score possible in a single frame of bowling? ",
+  "answer": "300",
+  "choice_a":"100",
+  "choice_b":"300",
+  "choice_c":"500",
+  "choice_d":"200",
+  "category_id": 3,
+  "created_by_user_id":4
+  },
+  {
+  "question_body": " Who is the all-time leading scorer in NBA history? ",
+  "answer": " Kareem Abdul-Jabbar ",
+  "choice_a":" LeBron James ",
+  "choice_b":" Michael Jordan ",
+  
+  "choice_c":" Kareem Abdul-Jabbar ",
+  "choice_d":" Kobe Bryant ",
+  "category_id": 3,
+  "created_by_user_id":4
+  },
+  {
+  "question_body": " Which country won the most gold medals in the 2020 Tokyo Olympics? ",
+  "answer": " China ",
+  "choice_a":" United States ",
+  "choice_b":" Japan ",
+  "choice_c":" Great Britain ",
+  "choice_d":" China ",
+  "category_id":3 ,
+  "created_by_user_id":4
+  },
+  {
+  "question_body": " In which sport is the term 'slam dunk' used? ",
+  "answer": " Basketball ",
+  "choice_a":" Basketball ",
+  "choice_b":" Soccer ",
+  "choice_c":" Volleyball ",
+  "choice_d":" Rugby ",
+  "category_id": 3,
+  "created_by_user_id":2
+  },
+  {
+  "question_body": " Who is the fastest man in the world? ",
+  "answer": " Usain Bolt ",
+  "choice_a":" Carl Lewis ",
+  "choice_b":" Usain Bolt ",
+  "choice_c":" Justin Gatlin ",
+  "choice_d":" Jesse Owens ",
+  "category_id": 3,
+  "created_by_user_id":2
+  },
+  {
+  "question_body":"Which actor played the role of Tony Stark in the Marvel Universe?",
+  "answer": " Robert Downey ",
+  "choice_a":" Robert Downey ",
+  "choice_b":" Chris Evans ",
+  "choice_c":" Chris Hemsworth ",
+  "choice_d":" Mark Ruffalo ",
+  "category_id": 4,
+  "created_by_user_id":2
+  },
+  {
+  "question_body": " Which movie won the Academy Award for Best Picture in 2020? ",
+  "answer": " Parasite ",
+  "choice_a":" Joker ",
+  "choice_b":" Once Upon a Time in Hollywood ",
+  "choice_c":"1917",
+  "choice_d":" Parasite ",
+  "category_id": 4,
+  "created_by_user_id":2
+  },
+  {
+  "question_body": ". Who directed the movie 'The Shawshank Redemption'? ",
+  "answer": " Frank Darabont ",
+  "choice_a":" Steven Spielberg ",
+  "choice_b":" Martin Scorsese ",
+  "choice_c":" Quentin Tarantino ",
+  "choice_d":" Frank Darabont ",
+  "category_id": 4,
+  "created_by_user_id":6
+  },
+  {
+  "question_body": " Who played the role of Batman in the movie 'The Dark Knight'? ",
+  "answer": " Christian Bale ",
+  "choice_a":" Ben Affleck ",
+  "choice_b":" Christian Bale ",
+  "choice_c":" George Clooney ",
+  "choice_d":" Michael Keaton ",
+  "category_id":4 ,
+  "created_by_user_id":6
+  },
+  {
+  "question_body": " Which movie is known for the quote 'Here's Johnny!'? ",
+  "answer": " The Shining ",
+  "choice_a":" Psycho ",
+  
+  "choice_b":" The Silence of the Lambs ",
+  "choice_c":" The Shining ",
+  "choice_d":" A Clockwork Orange ",
+  "category_id": 4,
+  "created_by_user_id":6
+  },
+  {
+  "question_body": " Who directed the movie 'Pulp Fiction'? ",
+  "answer": " Quentin Tarantino ",
+  "choice_a":" Quentin Tarantino ",
+  "choice_b":" Christopher Nolan ",
+  "choice_c":" Stanley Kubrick ",
+  "choice_d":" Martin Scorsese ",
+  "category_id": 4,
+  "created_by_user_id":7
+  },
+  {
+  "question_body":"Which actress won the Academy Award for Best Actress in the movie 'La La Land'?",
+  "answer": " Emma Stone ",
+  "choice_a":" Meryl Streep ",
+  "choice_b":" Jennifer Lawrence ",
+  "choice_c":" Emma Stone ",
+  "choice_d":") Natalie Portman ",
+  "category_id": 4,
+  "created_by_user_id":7
+  },
+  {
+  "question_body": " Which movie is based on the novel by J.R.R. Tolkien? ",
+  "answer": " The Lord of the Rings ",
+  "choice_a":" Harry Potter and the Sorcerer's Stone ",
+  "choice_b":" The Lord of the Rings ",
+  "choice_c":" The Hunger Games ",
+  "choice_d":" The Chronicles of Narnia ",
+  "category_id": 4,
+  "created_by_user_id":7
+  },
+  {
+  "question_body": "Who played the character of Jack Sparrow in the movie 'Pirates of the Carribean' series?",
+  "answer": " Johnny Depp ",
+  "choice_a":" Johnny Depp ",
+  "choice_b":" Tom Cruise ",
+  "choice_c":" Brad Pitt ",
+  "choice_d":" Leonardo DiCaprio ",
+  "category_id": 4,
+  "created_by_user_id":7
+  },
+  {
+  "question_body": " Which movie is known for the line 'May the Force be with you'? ",
+  "answer": " Star Wars ",
+  "choice_a":" The Matrix ",
+  "choice_b":" Blade Runner ",
+  "choice_c":" The Avengers ",
+  "choice_d":" Star Wars ",
+  "category_id":4 ,
+  "created_by_user_id":7
+  },
+  {
+  "question_body": " Who is the current President of the United States? ",
+  "answer": " Joe Biden ",
+  "choice_a":" Donald Trump ",
+  "choice_b":" Barack Obama ",
+  "choice_c":" George Washington ",
+  "choice_d":" Joe Biden ",
+  "category_id": 5,
+  "created_by_user_id":7
+  },
+  {
+  "question_body": " What is the main legislative body in the United States? ",
+  "answer": " House of Representatives ",
+  "choice_a":" Senate ",
+  "choice_b":" House of Representatives ",
+  "choice_c":" White House ",
+  "choice_d":" Supreme Court ",
+  "category_id": 5,
+  "created_by_user_id":7
+  },
+  {
+  "question_body": " Which country has the largest population in the world? ",
+  "answer": " China ",
+  "choice_a":" United States ",
+  
+  "choice_b":" Russia ",
+  "choice_c":" China ",
+  "choice_d":" India ",
+  "category_id": 5,
+  "created_by_user_id":6
+  },
+  {
+  "question_body": " Who is the Prime Minister of the United Kingdom? ",
+  "answer": " Boris Johnson ",
+  "choice_a":" Angela Merkel ",
+  "choice_b":" Emmanuel Macron ",
+  "choice_c":" Justin Trudeau ",
+  "choice_d":" Boris Johnson ",
+  "category_id": 5,
+  "created_by_user_id":6
+  },
+  {
+  "question_body": " What is the capital city of Australia? ",
+  "answer": " Canberra ",
+  "choice_a":" Sydney ",
+  "choice_b":" Melbourne ",
+  "choice_c":" Canberra ",
+  "choice_d":" Brisbane ",
+  "category_id": 5,
+  "created_by_user_id":6
+  },
+  {
+  "question_body":"What is the political system in which power is held by a single individual or a small group?",
+  "answer": " Dictatorship ",
+  "choice_a":" Democracy ",
+  "choice_b":" Dictatorship ",
+  "choice_c":" Monarchy ",
+  "choice_d":" Oligarchy ",
+  "category_id": 5,
+  "created_by_user_id":5
+  },
+  
+  {
+  "question_body": " Who was a Chancellor of Germany? ",
+  "answer": " Angela Merkel ",
+  "choice_a":" Vladimir Putin ",
+  "choice_b":" Angela Merkel ",
+  "choice_c":" Emmanuel Macron ",
+  "choice_d":" Justin Trudeau ",
+  "category_id": 5,
+  "created_by_user_id":5
+  },
+  {
+  "question_body": " What is the main political party in the United States? ",
+  "answer": " Democratic Party ",
+  "choice_a":" Republican Party ",
+  "choice_b":" Democratic Party ",
+  "choice_c":" Green Party ",
+  "choice_d":" Libertarian Party ",
+  "category_id": 5,
+  "created_by_user_id":5
+  },
+  {
+  "question_body": " Which country has the longest serving monarch in history? ",
+  "answer": " United Kingdom ",
+  "choice_a":" Saudi Arabia ",
+  "choice_b":" Japan ",
+  "choice_c":" Thailand ",
+  "choice_d":" United Kingdom ",
+  "category_id": 5,
+  "created_by_user_id":5
+  },
+  {
+  "question_body": " What is the basic unit of currency in the European Union? ",
+  "answer": " Euro ",
+  "choice_a":" Pound ",
+  "choice_b":" Dollar ",
+  "choice_c":" Yen ",
+  "choice_d":" Euro ",
+  
+  "category_id": 5,
+  "created_by_user_id":5
+  },
+  {
+  "question_body": " Who is known as the 'King of Pop'? ",
+  "answer": " Michael Jackson ",
+  "choice_a":" Elvis Presley ",
+  "choice_b":" Madonna ",
+  "choice_c":" Michael Jackson ",
+  "choice_d":" Beyoncé ",
+  "category_id": 6,
+  "created_by_user_id":5
+  },
+  {
+  "question_body": " Which band released the hit song 'Bohemian Rhapsody'? ",
+  "answer": " Queen ",
+  "choice_a":" The Beatles ",
+  "choice_b":" Queen ",
+  "choice_c":" Led Zeppelin ",
+  "choice_d":" Rolling Stones ",
+  "category_id": 6,
+  "created_by_user_id":5
+  },
+  {
+  "question_body": " Who is the lead singer of the band Coldplay? ",
+  "answer": " Chris Martin ",
+  "choice_a":" Chris Martin ",
+  "choice_b":" Bono ",
+  "choice_c":" Adam Levine ",
+  "choice_d":" Thom Yorke ",
+  "category_id": 6,
+  "created_by_user_id":5
+  },
+  {
+  "question_body": " Which artist has won the most Grammy Awards? ",
+  "answer": " Beyoncé ",
+  "choice_a":" Taylor Swift ",
+  
+  "choice_b":" Adele ",
+  "choice_c":" Beyoncé ",
+  "choice_d":" Beyonce and Taylor Swift have the same number of Grammy Awards",
+  "category_id": 6,
+  "created_by_user_id":5
+  },
+  {
+  "question_body": " Which country is known for the origin of flamenco music? ",
+  "answer": " Spain ",
+  "choice_a":" Italy ",
+  "choice_b":" France ",
+  "choice_c":" Brazil ",
+  "choice_d":" Spain ",
+  "category_id":6 ,
+  "created_by_user_id":4
+  },
+  {
+  "question_body": " Who released the album 'Thriller' in 1982? ",
+  "answer": " Michael Jackson ",
+  "choice_a":" Michael Jackson ",
+  "choice_b":" Madonna ",
+  "choice_c":" Prince ",
+  "choice_d":" Whitney Houston ",
+  "category_id": 6,
+  "created_by_user_id":4
+  },
+  {
+  "question_body": " Which band is known for the song 'Stairway to Heaven'? ",
+  "answer": " Led Zeppelin ",
+  "choice_a":" The Rolling Stones ",
+  "choice_b":" Led Zeppelin ",
+  "choice_c":" The Beatles ",
+  "choice_d":" Pink Floyd ",
+  "category_id": 6,
+  "created_by_user_id":4
+  },
+  
+  {
+  "question_body": " Who is considered the 'Queen of Soul'? ",
+  "answer": " Aretha Franklin ",
+  "choice_a":" Whitney Houston ",
+  "choice_b":" Mariah Carey ",
+  "choice_c":" Diana Ross ",
+  "choice_d":" Aretha Franklin ",
+  "category_id": 6,
+  "created_by_user_id":4
+  },
+  {
+  "question_body": " Which artist released the album 'Lemonade' in 2016? ",
+  "answer": " Beyoncé ",
+  "choice_a":" Rihanna ",
+  "choice_b":" Ariana Grande ",
+  "choice_c":" Beyoncé ",
+  "choice_d":" Katy Perry ",
+  "category_id": 6,
+  "created_by_user_id":3
+  },
+  {
+  "question_body": " Which genre of music is known for its origins in Jamaica? ",
+  "answer": " Reggae ",
+  "choice_a":" Salsa ",
+  "choice_b":" Reggae ",
+  "choice_c":" Hip Hop ",
+  "choice_d":" Country ",
+  "category_id": 6,
+  "created_by_user_id":3
+  },
+  {
+  "question_body": " Who was the first President of the United States? ",
+  "answer": " George Washington ",
+  "choice_a":" Abraham Lincoln ",
+  "choice_b":" Thomas Jefferson ",
+  "choice_c":" George Washington ",
+  "choice_d":" John F. Kennedy ",
+  
+  "category_id": 7,
+  "created_by_user_id":3
+  },
+  {
+  "question_body": " In which year did World War II end? ",
+  "answer": "1945",
+  "choice_a":"1945",
+  "choice_b":"1918",
+  "choice_c":"1939",
+  "choice_d":"1941",
+  "category_id": 7,
+  "created_by_user_id":3
+  },
+  {
+  "question_body": " The Magna Carta was signed in which country? ",
+  "answer": " England ",
+  "choice_a":" France ",
+  "choice_b":" Germany ",
+  "choice_c":" Italy ",
+  "choice_d":" England ",
+  "category_id":7,
+  "created_by_user_id":3
+  },
+  {
+  "question_body": " Who is known as the 'Father of the Indian Nation'? ",
+  "answer": " Mahatma Gandhi ",
+  "choice_a":" Jawaharlal Nehru ",
+  "choice_b":" Subhash Chandra Bose ",
+  "choice_c":" Mahatma Gandhi ",
+  "choice_d":" Bhagat Singh ",
+  "category_id":7 ,
+  "created_by_user_id":3
+  },
+  {
+  "question_body": " The French Revolution began in which year? ",
+  "answer": "1789",
+  "choice_a":"1789",
+  
+  "choice_b":"1776",
+  "choice_c":"1804",
+  "choice_d":"1848",
+  "category_id": 7,
+  "created_by_user_id":3
+  },
+  {
+  "question_body": " Who discovered America? ",
+  "answer": " Christopher Columbus ",
+  "choice_a":" Ferdinand Magellan ",
+  "choice_b":" Amerigo Vespucci ",
+  "choice_c":" Vasco da Gama ",
+  "choice_d":" Christopher Columbus ",
+  "category_id":7 ,
+  "created_by_user_id":3
+  },
+  {
+  "question_body": "The Great Wall of China was built during the reign of which dynasty?",
+  "answer": " Ming Dynasty",
+  "choice_a":" Qin Dynasty ",
+  "choice_b":" Ming Dynasty ",
+  "choice_c":" Han Dynasty ",
+  "choice_d":" Tang Dynasty ",
+  "category_id": 7,
+  "created_by_user_id":3
+  },
+  {
+  "question_body": " The Battle of Waterloo took place in which year? ",
+  "answer": "1815",
+  "choice_a":"1776",
+  "choice_b":"1914",
+  "choice_c":"1815",
+  "choice_d":"1945",
+  "category_id": 7,
+  "created_by_user_id":3
+  },
+  
+  {
+  "question_body": " Who was the first female Prime Minister of India? ",
+  "answer": " Indira Gandhi ",
+  "choice_a":" Indira Gandhi ",
+  "choice_b":" Margaret Thatcher ",
+  "choice_c":" Benazir Bhutto ",
+  "choice_d":" Golda Meir ",
+  "category_id": 7,
+  "created_by_user_id":3
+  },
+  {
+  "question_body": " The Renaissance period originated in which country? ",
+  "answer": " Italy ",
+  "choice_a":" France ",
+  "choice_b":" England ",
+  "choice_c":" Italy ",
+  "choice_d":" Spain ",
+  "category_id": 7,
+  "created_by_user_id":2
+  },
+  {
+  "question_body": " Which of the following is the largest ocean on Earth? ",
+  "answer": " Pacific Ocean ",
+  "choice_a":" Indian Ocean ",
+  "choice_b":" Atlantic Ocean ",
+  "choice_c":" Pacific Ocean ",
+  "choice_d":" Arctic Ocean ",
+  "category_id": 8,
+  "created_by_user_id":2
+  },
+  {
+  "question_body": " What is the capital city of New Zealand ",
+  "answer": " Wellington ",
+  "choice_a":" Auckland ",
+  "choice_b":" Christchurch ",
+  "choice_c":" Nelson ",
+  "choice_d":" Wellington ",
+  
+  "category_id": 8,
+  "created_by_user_id":2
+  },
+  {
+  "question_body": "Which of the following countries does not share a border with Brazil?",
+  "answer": " Colombia ",
+  "choice_a":" Argentina ",
+  "choice_b":" Colombia ",
+  "choice_c":" Peru ",
+  "choice_d":" Uruguay ",
+  "category_id": 8,
+  "created_by_user_id":2
+  },
+  {
+  "question_body": "Mount Everest, the highest peak in the world, is located in which mountain range?",
+  "answer": " Himalayas ",
+  "choice_a":" Himalayas ",
+  "choice_b":" Alps ",
+  "choice_c":" Andes ",
+  "choice_d":" Rocky Mountains ",
+  "category_id":8,
+  "created_by_user_id":2
+  },
+  {
+  "question_body": " Which continent is known as the 'Dark Continent'? ",
+  
+  "answer": " Africa ",
+  "choice_a":" Africa ",
+  "choice_b":" Asia ",
+  "choice_c":" Europe ",
+  "choice_d":" Antarctica ",
+  "category_id": 8,
+  "created_by_user_id":2
+  },
+  {
+  "question_body": "The Great Barrier Reef, one of the natural wonders of the world, is located in which country?",
+  "answer": " Australia ",
+  "choice_a":" Brazil ",
+  "choice_b":" Australia ",
+  "choice_c":" Indonesia ",
+  "choice_d":" Mexico ",
+  "category_id": 8,
+  "created_by_user_id":2
+  },
+  {
+  "question_body": "The Amazon River, the largest river by discharge volume in the world, is located in which continent?",
+  "answer": " South America ",
+  "choice_a":" Africa ",
+  "choice_b":" North America ",
+  "choice_c":" Asia ",
+  "choice_d":" South America ",
+  "category_id": 8,
+  "created_by_user_id":2
+  },
+  {
+  "question_body": "Which of the following countries is not part of the Nordic region?",
+  "answer": " Switzerland ",
+  "choice_a":" Norway ",
+  "choice_b":" Sweden ",
+  "choice_c":" Denmark ",
+  
+  "choice_d":" Switzerland ",
+  "category_id": 8,
+  "created_by_user_id":2
+  },
+  {
+  "question_body": " Which of the following countries does not have a desert? ",
+  "answer": " Brazil ",
+  "choice_a":" Australia ",
+  "choice_b":" Egypt ",
+  "choice_c":" Saudi Arabia ",
+  "choice_d":" Brazil ",
+  "category_id": 8,
+  "created_by_user_id":2
+  },
+  {
+  "question_body": " The Great Wall of China is located in which country? ",
+  "answer": " China ",
+  "choice_a":" Japan ",
+  "choice_b":" India ",
+  "choice_c":" China ",
+  "choice_d":" South Korea ",
+  "category_id": 8,
+  "created_by_user_id":2
+  }
+
+]
+
