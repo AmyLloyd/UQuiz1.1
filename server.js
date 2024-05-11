@@ -51,9 +51,6 @@ app.get('/', (req, res) => {
   res.render('homepage', loggedInContext);
 });
 
-
-
-
 app.use(routes);
 
 // server-side routes
