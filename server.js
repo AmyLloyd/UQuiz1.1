@@ -6,6 +6,7 @@ const routes = require('./controllers');
 
 const sequelize = require('./config/connection');
 const SequelizeStore = require('connect-session-sequelize')(session.Store);
+const exphbs = require('express-handlebars');
 
 const app = express();
 const PORT = process.env.PORT || 3001;
@@ -56,19 +57,19 @@ sequelize.sync({ force: false }).then(() => {
 //   res.render('homepage', loggedInContext);
 // });
 
-
-
 // // server-side routes
 // app.get('/quiz', (req, res) => {
 //   res.render('quiz');
 // });
 
-// app.get('/selectQuiz', (req, res) => {
-//   res.render('quiz-page');
-// });
+// // app.get('/selectQuiz', (req, res) => {
+// //   res.render('quiz-page');
+// // });
 
 // app.get('/account', (req, res) => {
 //   res.render('account');
 // });
-
+sequelize.sync({ force: false }).then(() => {
+  app.listen(PORT, () => console.log('Now listening'));
+});
 

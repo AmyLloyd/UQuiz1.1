@@ -72,7 +72,7 @@ const startButtonHandler = async (event) => {
     startButton.disabled = true;
     quizHome.style.display = "none";
     quizQuestionSet.style.visibility = "visible";
-    nextButton.style.visibility = "hidden";
+    nextButton.style.display = "none";
 
     try {
         await getQuizData();
@@ -106,8 +106,8 @@ const renderQuestion = () => {
 
 const nextButtonHandler = (event) => {
     event.preventDefault();
-    submitButton.style.visibility = 'visible';
-    nextButton.style.visibility = 'hidden';
+    submitButton.style.display = 'block';
+    nextButton.style.display = 'none';
 
     while (messageEl.firstChild) {
         messageEl.removeChild(messageEl.firstChild);
@@ -135,73 +135,58 @@ let score = 0;
 
 //add event listener to submit choice
 const submitButtonHandler = (event) => {
-
     event.preventDefault();
-    submitButton.style.visibility = 'hidden';
-    nextButton.style.visibility = 'visible';
+    submitButton.style.display = 'none';
+    nextButton.style.display = 'block';
     
     const guessEl = $('input:checked');
-    const guess = guessEl.val();
 
-    if(!$('input:checked')) {
-        //Render message
+    if(guessEl.length === 0) {
         console.log('no input checked');
-        const responseEl = $('<h2>');     
-        responseEl.text("Please select a response to continue.");
-        messageEl.append(responseEl);
+        const responseEl = $('<h2>').text("Please select a response to continue.");
+        messageEl.append(responseEl.text());
+        submitButton.style.display = 'block';
+        nextButton.style.display = 'none';
+
+        setTimeout(() => {
+            if (messageEl instanceof jQuery) {
+                messageEl.empty();
+            } else if (messageEl instanceof Element) {
+                messageEl.innerHTML = '';
+            } else {
+                console.error('Unsupported messageEl type:', messageEl);
+            }
+        }, 1000);
+
+        return;
     }
 
+    const guess = guessEl.val();
     if(guess === questions[currentQuestionIndex].answer) {
         score++;
         console.log(score);
-        
-        //Render message
-        const responseEl = document.createElement("h2");     
-        responseEl.textContent="CORRECT!";
-        messageEl.append(responseEl);
 
-        let clearMessage = () => {
-            if (messageEl instanceof Element) {
-              // If messageEl is a regular DOM element
-              messageEl.innerHTML = '';
-            } else if (messageEl instanceof jQuery) {
-              // If messageEl is a jQuery object
-              messageEl.empty();
-            } else {
-              console.error('Unsupported messageEl type:', messageEl);
-            }
-          };
-        const myResponse = setTimeout(clearMessage, 5000); 
+        const responseEl = $('<h2>').text("CORRECT!");
+        messageEl.append(responseEl.text());
 
     } else {
-        submitButton.style.visibility = 'hidden';
-        nextButton.style.visibility = 'visible';
-
-        const answerTextEl = document.createElement("span");
-        answerTextEl.setAttribute("id", "answer");
-        answerTextEl.textContent = `The correct answer is: ${questions[currentQuestionIndex].answer}`;
-
-        const responseEl = document.createElement("h2");
-        responseEl.textContent = "WRONG!";
-
-        responseEl.append(answerTextEl);
-        messageEl.append(responseEl);
-
-        let clearMessage = () => {
-            if (messageEl instanceof Element) {
-              // If messageEl is a regular DOM element
-              messageEl.innerHTML = '';
-            } else if (messageEl instanceof jQuery) {
-              // If messageEl is a jQuery object
-              messageEl.empty();
-            } else {
-              console.error('Unsupported messageEl type:', messageEl);
-            }
-          };
-
-        const myResponse = setTimeout(clearMessage, 5000); 
+        const responseEl = $('<h2>').text("WRONG!");
+        const answerTextEl = $('<span>').attr('id', 'answer').text(`The correct answer is: ${questions[currentQuestionIndex].answer}`)
+        responseEl.append(answerTextEl.text());
+        messageEl.append(responseEl.text());
     }
-}
+
+    setTimeout(() => {
+        if (messageEl instanceof jQuery) {
+            messageEl.empty();
+        } else if (messageEl instanceof Element) {
+            messageEl.innerHTML = '';
+        } else {
+            console.error('Unsupported messageEl type:', messageEl);
+        }
+    }, 5000);
+};
+
 
 const gameOver = () => {
     quizQuestionSet.style.display = "none";

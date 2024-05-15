@@ -1,11 +1,12 @@
 const router = require('express').Router();
-const express = require('express')
-const path = require('path')
-
 const withAuth = require('../utils/auth');
-const { Question, Quiz, QuizQuestion, Category } = require('../models/index');
+const { Question, Quiz, QuizQuestion, Category } = require('../models');
 
-router.get("/login", (req, res)=>{
+router.get('/login', (req, res) => {
+  if (req.session.logged_in) {
+    res.redirect('/account');
+    return;
+  }
   res.render("login")
 })
 
@@ -40,41 +41,6 @@ router.get('/quiz', withAuth, async (req, res) => {
 router.get("/", (req, res) => {
   res.render("homepage")
 })
-
-
-
-
-// //GET request at this route  /quiz'
-// router.get('/quiz', async (req, res) => {
-//   try {
-//       //Get all quizzes and JOIN with question data
-//       const dbQuizData = await Quiz.findAll({
-//           include: [
-//               {
-//                   model: Question,
-//                   as: 'questions',
-//                   attributes: [
-//                       'id',
-//                       'question_body',
-//                       'category_id',
-//                       'created_by_user_id'
-//                   ],
-//               }
-//           ],
-//       });
-//       // Serialize data so the template can read it
-//       const quizzes = dbQuizData.map((quiz) => quiz.get({ plain:true }));
-
-//       // // Pass serialized data and session flag into template
-//       res.render("quiz-home", {
-//           quizzes,
-//           // logged_in: req.session.logged_in 
-//       });
-
-//   } catch (err) {
-//       res.status(500).json({ error: 'Internal Server Error', details: err.message });
-//   }
-// });
 
 //GET request at this route: http://localhost:3001/quiz/:id
 //get request to render the page
@@ -131,21 +97,6 @@ router.get('/account', withAuth, async (req, res) => {
     res.status(500).json({ error: 'Internal Server Error', details: err.message });
   }
 });
-
-
-
-
-
-
-
-router.get('/login', (req, res) => {
-  if (req.session.loggedIn) {
-    res.redirect('/');
-    return;
-  }
-  res.render('login');
-});
-
 
 module.exports = router;
 

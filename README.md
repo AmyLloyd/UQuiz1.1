@@ -22,8 +22,10 @@ Our quiz-user member needs to:
 ## Breakdown of tasks and roles
 Seen in Work breakdown Schedule and project timeline
 Change from setting up overall parts to focus on particular pages and the needs of those pages through the combination of files (handlebars, client-side javascript and route)
+
 ## Challenges
 Managing the interaction between the controller and the views
+
 ## Successes
  A mostly functioning app.
 
@@ -45,8 +47,8 @@ Managing the interaction between the controller and the views
 4. Start the development server: `npm start`
 
 ## Usage
-
-1. Open the application in your web browser: `
+1. Open the application in your web browser 
+2. Create an account. 
 3. Explore available quizzes and select one to take.
 4. Answer the questions and submit your answers.
 5. View your quiz score and performance summary.
