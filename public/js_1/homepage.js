@@ -24,4 +24,5 @@ document.addEventListener('DOMContentLoaded', () => {
   document.querySelector('#play').addEventListener('click', () => navigateTo('/quiz'));
   document.querySelector('#quiz-select').addEventListener('click', () => navigateTo('/quiz-selection'));
   document.querySelector('#account').addEventListener('click', () => navigateTo('/account'));
+  document.querySelector('#account2').addEventListener('click', () => navigateTo('/login'));
 });
