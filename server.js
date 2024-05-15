@@ -1,16 +1,15 @@
+const path = require('path');
 const express = require('express');
 const session = require('express-session');
 const routes = require('./controllers');
-const path = require('path');
 
 const sequelize = require('./config/connection');
 const SequelizeStore = require('connect-session-sequelize')(session.Store);
-// const AOS = require('./node_modules/aos/dist');
-// AOS.init();
 const exphbs = require('express-handlebars');
 
 const app = express();
 const PORT = process.env.PORT || 3001;
+
 const hbs = exphbs.create({ 
   helpers: {
     eq: function (v1, v2) {
@@ -39,19 +38,23 @@ const sess = {
 
 app.use(session(sess));
 
+app.engine('handlebars', hbs.engine);
+app.set('view engine', 'handlebars');
+
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(express.static(path.join(__dirname, 'public')));
 
-app.engine('handlebars', hbs.engine);
-app.set('view engine', 'handlebars');
+app.use(routes);
 
-app.get('/', (req, res) => {
-  const loggedInContext = { loggedIn: req.session.loggedIn || false };
-  res.render('homepage', loggedInContext);
+sequelize.sync({ force: false }).then(() => {
+  app.listen(PORT, () => console.log('Now listening'));
 });
 
-app.use(routes);
+// app.get('/', (req, res) => {
+//   const loggedInContext = { loggedIn: req.session.loggedIn || false };
+//   res.render('homepage', loggedInContext);
+// });
 
 // // server-side routes
 // app.get('/quiz', (req, res) => {
@@ -65,7 +68,4 @@ app.use(routes);
 // app.get('/account', (req, res) => {
 //   res.render('account');
 // });
-sequelize.sync({ force: false }).then(() => {
-  app.listen(PORT, () => console.log('Now listening'));
-});
 
