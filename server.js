@@ -5,8 +5,8 @@ const path = require('path');
 
 const sequelize = require('./config/connection');
 const SequelizeStore = require('connect-session-sequelize')(session.Store);
-//const AOS = require('./node_modules/aos/dist');
-//AOS.init();
+// const AOS = require('./node_modules/aos/dist');
+// AOS.init();
 const exphbs = require('express-handlebars');
 
 const app = express();
