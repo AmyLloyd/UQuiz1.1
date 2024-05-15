@@ -53,18 +53,18 @@ app.get('/', (req, res) => {
 
 app.use(routes);
 
-// server-side routes
-app.get('/quiz', (req, res) => {
-  res.render('quiz');
-});
+// // server-side routes
+// app.get('/quiz', (req, res) => {
+//   res.render('quiz');
+// });
 
-app.get('/selectQuiz', (req, res) => {
-  res.render('quiz-page');
-});
+// // app.get('/selectQuiz', (req, res) => {
+// //   res.render('quiz-page');
+// // });
 
-app.get('/account', (req, res) => {
-  res.render('account');
-});
+// app.get('/account', (req, res) => {
+//   res.render('account');
+// });
 sequelize.sync({ force: false }).then(() => {
   app.listen(PORT, () => console.log('Now listening'));
 });

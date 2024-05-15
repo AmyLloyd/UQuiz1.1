@@ -15,7 +15,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "aos": "^2.3.4",
     "bcrypt": "^5.0.0",
     "bulma": "^0.9.4",
     "connect-session-sequelize": "^7.0.4",
@@ -30,7 +29,7 @@
     "session": "^0.1.0"
   },
   "devDependencies": {
-    "nodemon": "^3.0.1",
-    "sequelize-cli": "^6.6.2"
+      "nodemon": "^2.0.6",
+      "sequelize-cli": "^6.6.2"
   }
 }

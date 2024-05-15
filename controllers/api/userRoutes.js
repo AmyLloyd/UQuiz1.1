@@ -69,17 +69,4 @@ router.post('/logout', async (req, res) => {
     }
 });
 
-//What is this? 
-// app.get('/profile', (req, res) => {
-//     if (req.session.loggedIn) {
-//         const userId = req.session.userId;
-//         // Use the userId to fetch user-specific data or render the profile page
-//         res.render('profile', { userId });
-//     } else {
-//         // Redirect to the login page if the user is not logged in
-//         res.redirect('/login');
-//     }
-// });
-
-
 module.exports = router;
