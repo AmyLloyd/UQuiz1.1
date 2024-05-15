@@ -1,5 +1,5 @@
 {
-  "name": "uquiz",
+  "name": "uquiz1.1",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
@@ -9,8 +9,8 @@
     "seed": "node seeds/seed.js"
   },
   "engines": {
-    "node": "v21.1.0",
-    "npm": "8.3.1"
+    "node": "v20.10.0",
+    "npm": "10.2.3"
   },
   "author": "",
   "license": "ISC",
