@@ -1,7 +1,7 @@
 const withAuth = require('../../utils/auth');
-const { Question, Quiz, Category } = require('../../models')
+const { Category } = require('../../models')
 const path = require('path');
-const express = require('express'); // Import express
+const express = require('express'); 
 
 const app = express();
 app.use(express.static(path.join(__dirname, 'public')));
