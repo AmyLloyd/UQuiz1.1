@@ -17,5 +17,23 @@ router.get('/', withAuth, async (req, res) => {
     }
 });
 
+// Create a route for adding categories on the backend
+router.post('/', async (req, res) => {
+    try {
+        //Log the raw request body
+        console.log('Raw resuest body', req.body);
+        //Parse the JSON data
+        const categoryData = Category.create({
+            category_name: req.body.category_name,
+        });
+
+        res.status(200).json(categoryData);
+        console.log('Category submitted:', questionData);
+    } catch (err) {
+        console.log(err);
+        res.status(400).json(err);
+    }
+});
+
 
 module.exports = router;
