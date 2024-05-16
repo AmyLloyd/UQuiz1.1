@@ -1,12 +1,6 @@
 const router = require('express').Router();
-const express = require('express');
 const { Question, Category } = require('../../models/index')
-const path = require('path');
 const withAuth = require('../../utils/auth');
-
-const app = express();
-app.use(express.static(path.join(__dirname, 'public')));
-
 
 //GET request that will dynamically render options for the category and user select menu 
 router.get('/', withAuth, async (req, res) => {
@@ -53,7 +47,7 @@ router.get('/:category_id', withAuth, async (req, res) => {
 });
 
 // need to ensure question data is being send in correctly from the views
-router.post('/questionSubmission', withAuth, async (req, res) => {
+router.post('/profile', withAuth, async (req, res) => {
     try {
         // Log the raw request body
         console.log('Raw Request Body:', req.body);

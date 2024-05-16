@@ -15,12 +15,13 @@ const loginFormHandler = async (event) => {
             });
 
             if (response.ok) {
-                document.location.replace('/account');
+                document.location.replace('/profile');
             } else {
                 alert('Failed to Log In');
             }
         } catch (error) {
             console.error('Error during login:', error);
+            console.log(error);
         }
     }
 };
@@ -43,7 +44,7 @@ const signupFormHandler = async (event) => {
 
             if (response.ok) {
                 console.log('Sign Up Successful');
-                document.location.replace('/account');
+                document.location.replace('/profile');
             } else {
                 alert('Failed to Sign Up');
             }

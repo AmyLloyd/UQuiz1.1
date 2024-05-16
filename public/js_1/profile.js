@@ -16,7 +16,7 @@ const answer = document.querySelector(`#answer-${answer_value}`).value;
 
     if (question_body && choice_a && choice_b && choice_c && choice_d && category_id && answer) {
         try {
-            const response = await fetch('api/questions/questionSubmission', {
+            const response = await fetch('api/questions/profile', {
                 method: 'POST',
                 body: JSON.stringify({ question_body, choice_a, choice_b, choice_c, choice_d, category_id, answer }),
                 headers: { 'Content-Type': 'application/json' },

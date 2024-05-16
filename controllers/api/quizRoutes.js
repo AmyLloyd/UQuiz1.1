@@ -1,7 +1,6 @@
 const router = require('express').Router();
 const withAuth = require('../../utils/auth');
 const { Question, Quiz, QuizQuestion, Score, Category } = require('../../models');
-const randomArrayEnsure = require('random-array-ensure');
 
 //get route for quizData to send to quiz-home js file for dynamically rendering premade quizzes
 router.get('/data', withAuth, async (req, res) => {
