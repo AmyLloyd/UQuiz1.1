@@ -50,22 +50,3 @@ app.use(routes);
 sequelize.sync({ force: false }).then(() => {
   app.listen(PORT, () => console.log('Now listening'));
 });
-
-// app.get('/', (req, res) => {
-//   const loggedInContext = { loggedIn: req.session.loggedIn || false };
-//   res.render('homepage', loggedInContext);
-// });
-
-// // server-side routes
-// app.get('/quiz', (req, res) => {
-//   res.render('quiz');
-// });
-
-// // app.get('/selectQuiz', (req, res) => {
-// //   res.render('quiz-page');
-// // });
-
-// app.get('/account', (req, res) => {
-//   res.render('account');
-// });
-
