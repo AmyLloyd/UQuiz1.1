@@ -46,12 +46,13 @@ const renderQuizList = (quizData) => {
     let link = document.createElement('a');
     quizButton.setAttribute('type', 'button');
     quizButton.setAttribute('class', 'button');
-    quizButton.setAttribute('style', 'background-color: #D40000; color: #FFDF00');
+    quizButton.setAttribute('style', 'background-color: #D40000');
     quizButton.setAttribute('class', 'is-responsive');
     link.setAttribute('href', `/quiz/${quiz.id}`);
-    link.classList.add('py-4', 'px-4', 'mx-4', 'my-6');
+    link.setAttribute('style', 'color: white');
+    link.classList.add('py-4', 'px-4', 'mx-4');
     quizButton.classList.add('button', 'is-large', 'is-responsive', 'my-2');
-    link.innerHTML = `Quiz ${quiz.id} \n made by User ${quiz.user_id}.`;
+    link.innerHTML = `Quiz ${quiz.id} \n made by User ${quiz.user_id}`;
     quizButton.append(link);    
     quizListEl.append(quizButton);
   }

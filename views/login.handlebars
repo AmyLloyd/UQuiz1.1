@@ -1,77 +1,78 @@
 <main style="background-color:#FFDF00; height: 100vh">
-  <div style="display: flex">
-    <div class="section is-medium login" style="width:50%; padding-top: 72px; font-family: 'Space Grotesk'; background-color: #FFDF00;">
-        <h1 style="font-weight: 500; font-size: 400%; padding-bottom: 10px"> Login to Your UQuiz Account </h1>
+  <div class="columns">
+      <div class="column">
+        <div class="section is-medium login" style="padding-top: 72px; font-family: 'Space Grotesk'; background-color: #FFDF00;">
+            <h1 style="font-weight: 500; font-size: 400%; padding-bottom: 10px"> Login to Your UQuiz Account </h1>
+            <div class="field">
+              <p class="control has-icons-left has-icons-right">
+                <input class="input" id="email-login" type="email" placeholder="Email">
+                <span class="icon is-small is-left">
+                  <i class="fas fa-envelope"></i>
+                </span>
+                <span class="icon is-small is-right">
+                  <i class="fas fa-check"></i>
+                </span>
+              </p>
+            </div>
+
+            <div class="field">
+              <p class="control has-icons-left">
+                <input class="input" id="password-login" type="password" placeholder="Password">
+                <span class="icon is-small is-left">
+                  <i class="fas fa-lock"></i>
+                </span>
+              </p>
+            </div>
+            <div class="field">
+              <p class="control">
+                <button class="button is-success" type="submit" id="login-form" style="background-color: #D40000; color: white">
+                  Login
+                </button>
+              </p>
+            </div>
+          </div>
+      </div>
+    <div class="column">
+        <div class="section is-medium login" style="padding-top: 72px; font-family: 'Space Grotesk'; background-color: #FFA500">
+            <h1 style="font-weight: 500; font-size: 350%; padding-bottom: 10px"> Create an Account </h1>
         <div class="field">
-          <p class="control has-icons-left has-icons-right">
-            <input class="input" id="email-login" type="email" placeholder="Email">
+          <label class="label">Name</label>
+          <div class="control has-icons-left">
+            <input class="input" id="username-signup" type="text" placeholder="Name">
+            <span class="icon is-small is-right">
+              <ion-icon name="person-outline"></ion-icon>
+            </span>
+          </div>
+        </div>
+
+        <div class="field">
+          <label class="label">Email</label>
+          <div class="control has-icons-left has-icons-right">
+            <input class="input" id="email-signup" type="email" placeholder="Email">
             <span class="icon is-small is-left">
               <i class="fas fa-envelope"></i>
             </span>
-            <span class="icon is-small is-right">
-              <i class="fas fa-check"></i>
-            </span>
-          </p>
+          </div>
         </div>
 
-        <div class="field">
-          <p class="control has-icons-left">
-            <input class="input" id="password-login" type="password" placeholder="Password">
-            <span class="icon is-small is-left">
-              <i class="fas fa-lock"></i>
-            </span>
-          </p>
+          <div class="field">
+            <label class="label">Password</label>
+            <div class="control has-icons-left has-icons-right">
+              <input class="input" id="password-signup" type="password" placeholder="Password">
+              <span class="icon is-small is-left">
+                <i class="fas fa-lock"></i>
+              </span>
+            </div>
+          </div>
+
+        <div class="field is-grouped">
+          <div class="control">
+            <button class="button is-link" type="submit" id="signup-form" style="background-color: #D40000; color: white">Create Account</button>
+          </div>
         </div>
-        <div class="field">
-          <p class="control">
-            <button class="button is-success" type="submit" id="login-form" style="background-color: #D40000; color: #FFDF00">
-              Login
-            </button>
-          </p>
-        </div>
-      </div>
-  </div>
-<div style="display:flex">
-    <div class="section is-medium login" style="width:45%; margin-top: 45px; margin-bottom: 45px; padding-top: 72px; padding-bottom: 72px; font-family: 'Space Grotesk'; background-color: #FFA500">
-        <h1 style="font-weight: 500; font-size: 350%; padding-bottom: 10px"> Create an Account </h1>
-    <div class="field">
-      <label class="label">Name</label>
-      <div class="control has-icons-left">
-        <input class="input" id="username-signup" type="text" placeholder="Name">
-        <span class="icon is-small is-right">
-          <ion-icon name="person-outline"></ion-icon>
-        </span>
       </div>
     </div>
-
-    <div class="field">
-      <label class="label">Email</label>
-      <div class="control has-icons-left has-icons-right">
-        <input class="input" id="email-signup" type="email" placeholder="Email">
-        <span class="icon is-small is-left">
-          <i class="fas fa-envelope"></i>
-        </span>
-      </div>
-    </div>
-
-      <div class="field">
-        <label class="label">Password</label>
-        <div class="control has-icons-left has-icons-right">
-          <input class="input" id="password-signup" type="password" placeholder="Password">
-          <span class="icon is-small is-left">
-            <i class="fas fa-lock"></i>
-          </span>
-        </div>
-      </div>
-
-    <div class="field is-grouped">
-      <div class="control">
-        <button class="button is-link" type="submit" id="signup-form" style="background-color: #D40000; color: #FFDF00">Create Account</button>
-      </div>
-    </div>
-  </div>
 </div>
-
 
 <div id="error-message" style="color: red; display: none;"></div>
 </main>

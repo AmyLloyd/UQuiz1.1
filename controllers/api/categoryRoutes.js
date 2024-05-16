@@ -1,12 +1,6 @@
-const withAuth = require('../../utils/auth');
-const { Question, Quiz, Category } = require('../../models')
-const path = require('path');
-const express = require('express'); // Import express
-
-const app = express();
-app.use(express.static(path.join(__dirname, 'public')));
-
 const router = require('express').Router();
+const withAuth = require('../../utils/auth');
+const { Category } = require('../../models')
 
 router.get('/', withAuth, async (req, res) => {
     try {
