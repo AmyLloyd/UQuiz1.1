@@ -56,14 +56,32 @@ router.post('/login', async (req, res) => {
     }
 });
 
+// router.post('/logout', async (req, res) => {
+//     console.log('Log out route hit');
+//     if (req.session.loggedIn) {
+//         req.session.destroy(() => {
+//             res.status(204).end();
+//         });
+//     } else {
+//         res.status(404).end()
+//     }
+// });
+
 router.post('/logout', async (req, res) => {
+    console.log('Log out route hit');
     if (req.session.loggedIn) {
-        req.session.destroy(() => {
+        req.session.destroy(err => {
+            if (err) {
+                console.error('Failed to destroy session:', err);
+                return res.status(500).json({ message: 'Failed to log out. Please try again.' });
+            }
+
             res.status(204).end();
         });
     } else {
-        res.status(404).end()
+        res.status(404).json({ message: 'User not logged in.' });
     }
 });
+
 
 module.exports = router;
