@@ -12,6 +12,8 @@ Members of Uquiz contribute their own questions to our database.
 Members are able to play pre-made quizzes or customise their own. 
 Users can choose a category and create a quiz or even choose another user and target their questions when designing quizzes to play. Great for finding your quiz-nemesis and challenging yourself!
 
+![uquiz-screenshot](./public/images/uquiz-quiz-screenshot.png)
+
 ## Features
 Our quiz-user member needs to:
 - have fun and enjoy themselves by easily accessing a multitude of questions 
@@ -48,7 +50,7 @@ Managing the interaction between the controller and the views
 
 ## Usage
 1. Open the application in your web browser at: https://enigmatic-anchorage-31363-162a45e83054.herokuapp.com/
-![UQuiz1.1-screenshot](./public//assets//uquiz-screenshot.png)
+![uquiz-screenshot](./public/images/uquiz-screenshot.png)
 2. Create an account. 
 3. Explore available quizzes and select one to take.
 4. Answer the questions and submit your answers.
