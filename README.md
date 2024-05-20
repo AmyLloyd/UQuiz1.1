@@ -47,7 +47,8 @@ Managing the interaction between the controller and the views
 4. Start the development server: `npm start`
 
 ## Usage
-1. Open the application in your web browser 
+1. Open the application in your web browser at: https://enigmatic-anchorage-31363-162a45e83054.herokuapp.com/
+![UQuiz1.1-screenshot](./public//assets//uquiz-screenshot.png)
 2. Create an account. 
 3. Explore available quizzes and select one to take.
 4. Answer the questions and submit your answers.
