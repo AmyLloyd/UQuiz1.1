@@ -1,24 +1,20 @@
 const path = require('path');
 const express = require('express');
 const session = require('express-session');
+<<<<<<< Updated upstream
 const routes = require('./controllers');
+=======
+const exphbs = require('express-handlebars');
+>>>>>>> Stashed changes
 
-const sequelize = require('./config/connection');
 const SequelizeStore = require('connect-session-sequelize')(session.Store);
+
+const routes = require('./controllers');
+const sequelize = require('./config/connection');
+
 
 const app = express();
 const PORT = process.env.PORT || 3001;
-
-const hbs = exphbs.create({ 
-  helpers: {
-    eq: function (v1, v2) {
-        return v1 === v2;
-    },
-    json: function (context) {
-      return JSON.stringify(context);
-    },
-}
-});
 
 const sess = {
   secret: 'Super secret secret',
@@ -36,6 +32,8 @@ const sess = {
 };
 
 app.use(session(sess));
+
+const hbs = exphbs.create({ helpers });
 
 app.engine('handlebars', hbs.engine);
 app.set('view engine', 'handlebars');
