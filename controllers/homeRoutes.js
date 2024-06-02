@@ -93,9 +93,8 @@ router.get('/profile', withAuth, async (req, res) => {
     // Assuming user_id and user_username are stored in the session
     const userPage = {
       user_id: req.session.user_id,
-      username: req.session.user_username,
+      username: req.session.username,
     };
-    console.log(userPage, 'userPage');
     const categories = await Category.findAll();
     const categoryData = categories.map(category => category.toJSON());
 

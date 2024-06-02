@@ -1,5 +1,3 @@
-console.log('script loaded');
-
 const loginFormHandler = async (event) => {
     event.preventDefault();
 
@@ -17,7 +15,7 @@ const loginFormHandler = async (event) => {
             if (response.ok) {
                 document.location.replace('/profile');
             } else {
-                alert('Failed to Log In');
+                alert(response.statusText);
             }
         } catch (error) {
             console.error('Error during login:', error);
@@ -33,6 +31,8 @@ const signupFormHandler = async (event) => {
     const email_address = document.querySelector('#email-signup').value.trim();
     const password = document.querySelector('#password-signup').value.trim();
 
+    console.log(username, email_address, "user details");
+
 
     if (username && email_address && password) {
         try {
@@ -43,8 +43,8 @@ const signupFormHandler = async (event) => {
             });
 
             if (response.ok) {
-                console.log('Sign Up Successful');
                 document.location.replace('/profile');
+                console.log('Sign up successful');
             } else {
                 alert('Failed to Sign Up');
             }
